@@ -13,3 +13,15 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Ignorar archivos APK generados
+app/build/
+
+# Ignorar artefactos de compilación de OpenCV
+opencv/build/
+
+# Ignorar bibliotecas nativas generadas
+opencv/native/libs/
+
+# Ignorar otras carpetas de compilación
+*/build/
+
